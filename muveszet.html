@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="hatter.css">
     <title>Művészetek</title>
-    <style>
-        body { font-family: Arial, sans-serif; padding: 20px; }
-        ul { list-style: none; padding-left: 0; }
-        li { margin-bottom: 15px; }
-        .button {
-            display: inline-block;
-            padding: 8px 15px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        strong { font-weight: bold; }
+    
+       <style>
+ul {
+    list-style: disc; /* pontok a listához */
+    padding-left: 20px; /* alap beljebb tolás */
+}
+
+ul ul { 
+    list-style-type: circle; /* al-listák más stílusú pontokkal */
+    padding-left: 20px; /* plusz beljebb tolás */
+}
+
+ul ul ul {
+    list-style-type: square; /* további szint */
+    padding-left: 20px;
+}
+
     </style>
 </head>
 <body>
@@ -66,4 +70,5 @@
     </ul>
 </body>
 </html>
+
 
